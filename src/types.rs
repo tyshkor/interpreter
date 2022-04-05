@@ -1,5 +1,3 @@
-use std::result;
-
 #[derive(Copy, Clone)]
 pub enum ByteCode {
     LoadVal(i64),
